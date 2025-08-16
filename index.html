@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Performance and SEO Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="FOODZ - Explore your taste with special food in the special place. Order delicious meals online with fast delivery.">
+    <meta name="keywords" content="food delivery, restaurant, online ordering, Korean food, BBQ, Gimbap, Kimchi, fast delivery">
+    <meta name="author" content="FOODZ">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#4CAF50">
+    
+    <!-- Performance Optimizations -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="FOODZ - You've Got Questions. We've Got Taste.">
+    <meta property="og:description" content="Explore your taste with special food in the special place. Fast delivery and delicious meals.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://foodz-website.com">
+    <meta property="og:image" content="food-bowl.png">
+    <meta property="og:site_name" content="FOODZ">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="FOODZ - You've Got Questions. We've Got Taste.">
+    <meta name="twitter:description" content="Explore your taste with special food in the special place.">
+    
+    <!-- Structured Data for Restaurant -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Restaurant",
+        "name": "FOODZ",
+        "description": "Explore your taste with special food in the special place",
+        "url": "https://foodz-website.com",
+        "servesCuisine": ["Korean", "Asian", "International"],
+        "hasMenu": "https://foodz-website.com/menu",
+        "priceRange": "$$",
+        "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "VN"
+        },
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+84-123-465-798"
+        }
+    }
+    </script>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    
+    <title>FOODZ - You've Got Questions. We've Got Taste.</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Skip to main content link for accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <!-- Header Section -->
+    <header class="header" role="banner" aria-label="Main site header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="#hero" aria-label="FOODZ Homepage - Return to top of page">
+                        <span class="logo-text">FOODZ</span>
+                    </a>
+                </div>
+                
+                <div class="header-cta">
+                    <nav class="navigation" role="navigation" aria-label="Main navigation">
+                        <ul class="nav-list">
+                            <li><a href="#hero" class="nav-link active" aria-current="page">Home</a></li>
+                            <li><a href="#offers" class="nav-link">Menu</a></li>
+                            <li><a href="#chef" class="nav-link">Blog</a></li>
+                            <li><a href="#contact" class="nav-link">Contact</a></li>
+                        </ul>
+                    </nav>
+                    <a href="#contact" class="btn btn-primary" aria-label="Order food now - Main call to action">
+                        ORDER NOW
+                    </a>
+                </div>
+                
+                <!-- Mobile Hamburger Menu Button -->
+                <button class="hamburger-menu" aria-label="Toggle mobile navigation menu" aria-expanded="false">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+                
+                <!-- Mobile Navigation Overlay -->
+                <div class="mobile-nav-overlay" aria-hidden="true">
+                    <!-- Close button for mobile navigation -->
+                    <button class="mobile-nav-close" aria-label="Close mobile navigation menu">
+                        <span class="sr-only">Close menu</span>
+                    </button>
+                    
+                    <nav class="mobile-navigation" role="navigation" aria-label="Mobile navigation">
+                        <ul class="mobile-nav-list" >
+                            <li><a href="#hero" class="mobile-nav-link active" aria-current="page">Home</a></li>
+                            <li><a href="#offers" class="mobile-nav-link">Menu</a></li>
+                            <li><a href="#chef" class="mobile-nav-link">Blog</a></li>
+                            <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+                        </ul>
+                        <a href="#contact" class="btn btn-primary mobile-order-btn" aria-label="Order food now - Mobile call to action">
+                            ORDER NOW
+                        </a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content" role="main">
+        <!-- Hero Section -->
+        <section id="hero" class="hero" aria-labelledby="hero-heading">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1 id="hero-heading" class="hero-title">
+                            You've Got Questions.<br>
+                            We've Got Taste.
+                        </h1>
+                        <p class="hero-description">
+                            Explore your Taste with special food in the special place. This text don't have any meaning.
+                        </p>
+                        <div class="hero-actions">
+                                                    <a href="#contact" class="btn btn-primary btn-large" aria-label="Order food now - Hero section call to action">
+                            ORDER NOW
+                        </a>
+                            <a href="#offers" class="hero-link" aria-label="Explore our menu - View special offers">
+                                Explore menu
+                            </a>
+                        </div>
+                        
+                        <!-- Statistics Cards -->
+                        <div class="stats-container" role="region" aria-label="Company statistics">
+                            <div class="stat-card" role="article">
+                                <span class="stat-number" aria-label="9 plus">9+</span>
+                                <span class="stat-label">years of service.</span>
+                            </div>
+                            <div class="stat-card" role="article">
+                                <span class="stat-number" aria-label="120 plus">120+</span>
+                                <span class="stat-label">Store in the world.</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="hero-visual" role="img" aria-label="Delicious Korean Bibimbap bowl illustration">
+                        <div class="food-illustration">
+                            <img src="food-bowl.png" alt="Delicious Korean Bibimbap bowl with fresh vegetables, egg, and colorful ingredients" class="hero-food-image" loading="lazy" width="400" height="300">
+                        </div>
+                        <div class="background-shape"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Special Offers Section -->
+        <section id="offers" class="special-offers" aria-labelledby="offers-heading">
+            <div class="container">
+                <h2 id="offers-heading" class="section-title">
+                    Today <span class="highlight">Special</span> Offers
+                </h2>
+                <p class="section-description">
+                    Best cooks and best delivery guys all at your service. Hot tasty food will reach you in 60 minutes.
+                </p>
+                
+                <div class="offers-carousel">
+                    <div class="offers-container">
+                        <!-- Gimbap Card -->
+                        <div class="offer-card">
+                            <div class="food-image gimbap-image">
+                                <img src="gimbap.png" alt="Delicious Korean Gimbap rolls" class="food-card-image" loading="lazy" width="200" height="150">
+                            </div>
+                            <div class="card-content">
+                                <h3 class="food-name">Gimbap</h3>
+                                <div class="rating">
+                                    <div class="stars">
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                    </div>
+                                    <span class="reviews">214 Reviews</span>
+                                </div>
+                                <div class="price">$12.99</div>
+                                <a href="#contact" class="btn btn-primary order-btn">Order Now</a>
+                            </div>
+                        </div>
+
+                        <!-- Korea BBQ Card -->
+                        <div class="offer-card">
+                            <div class="food-image bbq-image">
+                                <img src="korea-bbq.png" alt="Delicious Korean BBQ with grilled meat" class="food-card-image" loading="lazy" width="200" height="150">
+                            </div>
+                            <div class="card-content">
+                                <div class="card-header">
+                                    <h3 class="food-name">Korea BBQ</h3>
+                                    <div class="timer-badge">
+                                        <span class="timer-icon">⏰</span>
+                                        <span class="timer-text">02:21:11</span>
+                                    </div>
+                                </div>
+                                <div class="rating">
+                                    <div class="stars">
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                    </div>
+                                    <span class="reviews">214 Reviews</span>
+                                </div>
+                                <div class="description">
+                                    <p>Excellent flavor for your preference with:</p>
+                                    <ul class="flavor-list">
+                                        <li>Aromatic</li>
+                                        <li>Spicy</li>
+                                        <li>Honeyed sugary</li>
+                                    </ul>
+                                </div>
+                                <div class="price">$21.99</div>
+                                <a href="#contact" class="btn btn-primary order-btn">Order Now</a>
+                            </div>
+                        </div>
+
+                        <!-- Kimchi Card -->
+                        <div class="offer-card">
+                            <div class="food-image kimchi-image">
+                                <img src="kimchi.png" alt="Traditional Korean Kimchi" class="food-card-image" loading="lazy" width="200" height="150">
+                            </div>
+                            <div class="card-content">
+                                <h3 class="food-name">Kimchi</h3>
+                                <div class="rating">
+                                    <div class="stars">
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                    </div>
+                                    <span class="reviews">214 Reviews</span>
+                                </div>
+                                <div class="price">$6.99</div>
+                                <a href="#contact" class="btn btn-primary order-btn">Order Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Navigation Arrows for Food Cards -->
+                    <div class="carousel-navigation">
+                        <button class="nav-arrow nav-prev" aria-label="Previous food offer">
+                            <span class="arrow-icon">←</span>
+                        </button>
+                        <button class="nav-arrow nav-next" aria-label="Next food offer">
+                            <span class="arrow-icon">→</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 19 Michelin Stars Chef Section -->
+        <section id="chef" class="michelin-chef-section" aria-labelledby="michelin-chef-heading">
+            <div class="container">
+                <h2 id="michelin-chef-heading" class="section-title">
+                    19 <span class="highlight">Michelin</span> Stars Chef
+                </h2>
+                <div class="chef-content">
+                    <div class="chef-illustration">
+                        <img src="chef.png" alt="Chef illustration" class="chef-section-image" loading="lazy" width="400" height="300">
+                    </div>
+                    <div class="chef-details">
+                        <h3 class="chef-name">Alain Ducasse - <span class="highlight">19 Michelin Stars</span></h3>
+                        <a href="#" class="view-all-link" aria-label="View All Restaurants by Alain Ducasse">View All Restaurant →</a>
+                        <p>Considered by many to be one of the best chefs in the world, he's built a business empire over the years with 36 restaurants spanning across the globe. He's also one of only two chefs to hold 21 Michelin stars throughout his career and the first chef to own restaurants carrying three Michelin Stars in three cities.</p>
+                        <p>In addition to being known for world-class French cuisine, Ducasse is the only chef on this list who has sent his food into space. In 2015, Ducasse sent meals to astronauts orbiting Earth aboard the International Space Station, an accomplishment that Ducasse said he viewed as conquering 'the final frontier (of cooking)'.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- How We Keep Your Meal Delicious Section -->
+        <section class="delicious-process-section" aria-labelledby="delicious-process-heading">
+            <div class="container">
+                <h2 id="delicious-process-heading" class="section-title">
+                    How We Keep Your Meal <span class="highlight">Delicious</span>
+                </h2>
+                
+                <div class="process-cards">
+                    <!-- Card 1: Receive The Order -->
+                    <div class="process-card">
+                        <div class="process-icon">
+                            <div class="icon-circle">
+                                <div class="icon-receive-order"></div>
+                            </div>
+                        </div>
+                        <h3 class="process-title">Receive The Order</h3>
+                        <p class="process-description">That help us know what delicious meal you will try, but I don't write anything</p>
+                    </div>
+
+                    <!-- Card 2: Prepare your Meal -->
+                    <div class="process-card">
+                        <div class="process-icon">
+                            <div class="icon-circle">
+                                <div class="icon-prepare-meal"></div>
+                            </div>
+                        </div>
+                        <h3 class="process-title">Prepare your Meal</h3>
+                        <p class="process-description">That help us know what delicious meal you will try, but I don't write anything</p>
+                    </div>
+
+                    <!-- Card 3: Delivery Your Meal -->
+                    <div class="process-card">
+                        <div class="process-icon">
+                            <div class="icon-circle">
+                                <div class="icon-delivery"></div>
+                            </div>
+                        </div>
+                        <h3 class="process-title">Delivery Your Meal</h3>
+                        <p class="process-description">That help us know what delicious meal you will try, but I don't write anything</p>
+                    </div>
+                </div>
+
+                <!-- Call to Action Section -->
+                <div class="cta-section">
+                    <h3 class="cta-title">
+                        Get The Best Taste <span class="highlight">Now!</span>
+                    </h3>
+                    <p class="cta-description">Best cooks and best delivery guys all at your service. Hot tasty food will reach you in 60 minutes.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Food Ordering Form Section -->
+        <section id="contact" class="food-ordering-section" aria-labelledby="food-ordering-heading">
+            <div class="container">
+                <div class="ordering-content">
+                    <!-- Left Column: Order Form -->
+                    <div class="order-form-container">
+                        <h2 id="food-ordering-heading" class="form-section-title">
+                            What's your <span class="highlight">Taste?</span>
+                        </h2>
+                        <p class="form-instruction">Fill out the form and let us know your taste.</p>
+                        
+                        <form class="order-form" action="#" method="POST">
+                            <!-- Meal Selection -->
+                            <div class="form-group">
+                                <label for="meal-select" class="form-label">Select your Meal</label>
+                                <div class="meal-selection-container">
+                                    <select id="meal-select" name="meal" class="form-select" required>
+                                        <option value="" disabled selected>What's your Taste?</option>
+                                        <option value="gimbap">Gimbap</option>
+                                        <option value="korea-bbq">Korea BBQ</option>
+                                        <option value="kimchi">Kimchi</option>
+                                        <option value="sushi">Sushi</option>
+                                        <option value="ramen">Ramen</option>
+                                    </select>
+                                    <a href="#" class="view-menu-link">View menu</a>
+                                </div>
+                                <button type="button" class="add-meal-btn">
+                                    <span class="plus-icon">+</span>
+                                    Add 1 Taste +
+                                </button>
+                            </div>
+
+                            <!-- Order Name -->
+                            <div class="form-group">
+                                <label for="order-name" class="form-label">Order name</label>
+                                <input type="text" id="order-name" name="orderName" class="form-input" placeholder="Your name" required>
+                            </div>
+
+                            <!-- Phone Number -->
+                            <div class="form-group">
+                                <label for="phone-number" class="form-label">Phone number</label>
+                                <div class="phone-input-container">
+                                    <select name="countryCode" class="country-code-select">
+                                        <option value="VN" selected>VN</option>
+                                        <option value="US">US</option>
+                                        <option value="UK">UK</option>
+                                        <option value="CA">CA</option>
+                                        <option value="AU">AU</option>
+                                    </select>
+                                    <input type="tel" id="phone-number" name="phoneNumber" class="form-input phone-input" placeholder="(+84) 123 465 798" required>
+                                </div>
+                            </div>
+
+                            <!-- Address -->
+                            <div class="form-group">
+                                <label for="address" class="form-label">Your Address</label>
+                                <div class="address-input-container">
+                                    <input type="text" id="address" name="address" class="form-input" placeholder="17 Acb Street" required>
+                                    <div class="location-icon">📍</div>
+                                </div>
+                            </div>
+
+                            <!-- Payment Method -->
+                            <div class="form-group">
+                                <label for="payment-method" class="form-label">Payment Method</label>
+                                <select id="payment-method" name="paymentMethod" class="form-select" required>
+                                    <option value="cash" selected>I'll pay cash</option>
+                                    <option value="card">Credit/Debit Card</option>
+                                    <option value="paypal">PayPal</option>
+                                    <option value="digital">Digital Wallet</option>
+                                </select>
+                            </div>
+
+                            <!-- Notes -->
+                            <div class="form-group">
+                                <label for="notes" class="form-label">Note for us</label>
+                                <textarea id="notes" name="notes" class="form-textarea" placeholder="More spicy, more sauce, ..." rows="3"></textarea>
+                            </div>
+
+                            <!-- Total Payment -->
+                            <div class="total-payment">
+                                <span class="payment-text">You will pay</span>
+                                <span class="payment-amount">$0.00</span>
+                            </div>
+
+                            <!-- Submit Button -->
+                            <button type="submit" class="btn btn-primary order-submit-btn">
+                                ORDER NOW
+                            </button>
+                        </form>
+                    </div>
+
+                    <!-- Right Column: Delivery Person Illustration -->
+                    <div class="delivery-illustration">
+                        <img src="delivery-guy.png" alt="Food delivery person on scooter" class="delivery-section-image" loading="lazy" width="400" height="300">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">FOODZ</div>
+                    <p class="footer-description">Explore your Taste with speacial food in the special place, that will make you happy. I try to write some thing without lorem isum.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4 class="footer-column-title">Support</h4>
+                        <ul class="footer-link-list">
+                            <li><a href="#" class="footer-link">Help Centre</a></li>
+                            <li><a href="#" class="footer-link">Safety information</a></li>
+                            <li><a href="#" class="footer-link">Cancellation options</a></li>
+                            <li><a href="#" class="footer-link">Report Complaint</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4 class="footer-column-title">Community</h4>
+                        <ul class="footer-link-list">
+                            <li><a href="#" class="footer-link">Customer Review</a></li>
+                            <li><a href="#" class="footer-link">Newsletter</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4 class="footer-column-title">About</h4>
+                        <ul class="footer-link-list">
+                            <li><a href="#" class="footer-link">Our Chef</a></li>
+                            <li><a href="#" class="footer-link">Careers</a></li>
+                            <li><a href="#" class="footer-link">Blog</a></li>
+                            <li><a href="#" class="footer-link">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 FOODZ. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
